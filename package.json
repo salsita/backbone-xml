@@ -1,0 +1,16 @@
+{
+  "name" : "backbone-xml",
+  "description" : "Simple XML to JavaScript object converter.",
+  "keywords" : ["backbone", "model", "xml"],
+  "homepage" : "https://github.com/salsita/backbone-xml",
+  "version" : "0.1",
+  "author" : "Roman Kaspar <roman@salsitasoft.com> (http://www.salsitasoft.com)",
+  "contributors" : [
+    "Matthew Gertner <matther@salsitasoft.com> (http://www.salsitasoft.com)"
+  ],
+  "main" : "./lib/backbone-xml",
+  "repository" : {
+    "type" : "git",
+    "url" : "git@github.com:salsita/backbone-xml.git"
+  }
+}
