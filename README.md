@@ -32,13 +32,14 @@ The error is accompanied with text description of the problem.
 ## Dependencies
 
 The XMLModel implementation depends on the following libraries / modules:
+
 * [jquery.js](http://jquery.com/ "jquery.js"):  Ajax interactions, 
 * [backbone.js](http://documentcloud.github.com/backbone/ "backbone.js"): the
-* Backbone functionality we are extending,
-* [xml2js.js](https://github.com/salsita/node-xml2js/ "xml2js.js"):
-* XML parser, and
+Backbone functionality we are extending,
+* [xml2js.js](https://github.com/salsita/node-xml2js/ "xml2js.js"): XML parser,
+and
 * [xml2js-schema.js](https://github.com/salsita/xml2js-schema
-* "xml2js-schema.js"): schema validator.
+"xml2js-schema.js"): schema validator.
 
 The XMLModel is a CommonJS module and uses other CommonJS modules, so function
 `require()` must exist in the execution context.
