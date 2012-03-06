@@ -60,7 +60,7 @@ The XMLModel is a CommonJS module and uses other CommonJS modules, so function
 
       var XMLModel = require('backbone-xml').XMLModel;
 
-      var TODOModel = XMLModel.extend({
+      var TestModel = XMLModel.extend({
         validate: function(attributes) {
           if ( (attributes.number_of_tags > 0  && !attributes.tags) ||
                (attributes.number_of_tags != attributes.tags.length) ) {
@@ -69,8 +69,8 @@ The XMLModel is a CommonJS module and uses other CommonJS modules, so function
         }
       });
 
-      var TODOschema = {
-        name: "TODOitem",
+      var testSchema = {
+        name: "TestItem",
         type: "object",
         properties: {
           "text": {
@@ -98,20 +98,20 @@ The XMLModel is a CommonJS module and uses other CommonJS modules, so function
       };
 
       function success() {
-        console.log('TODO model:');
-        console.log(todoItem.attributes);
+        console.log('Test model:');
+        console.log(testItem.attributes);
       }
 
       function error(message) {
         console.log('Error:', message);
       }
 
-      var todoItem = new TODOModel();
-      todoItem.bind('change', success);
-      todoItem.bind('error', error);
-      todoItem.fetch({
-        url: 'http://127.0.0.1:8380/data/todo.xml',
-        schema: TODOschema
+      var testItem = new TestModel();
+      testItem.bind('change', success);
+      testItem.bind('error', error);
+      testItem.fetch({
+        url: 'http://127.0.0.1:8380/data/test.xml',
+        schema: testSchema
       });
 
 
@@ -130,4 +130,4 @@ start the server, go to the tests/server directory and issue:
       $ node file-server.js
 
 The tests/server/data directory contains all the XML files for the jasmine test
-suite, it includes also todo.xml file for the Example above.
+suite, it includes also test.xml file for the Example above.

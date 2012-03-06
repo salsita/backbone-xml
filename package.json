@@ -1,6 +1,6 @@
 {
   "name" : "backbone-xml",
-  "description" : "XML-backed Backbone model.",
+  "description" : "XML-backed model support for Backbone.js.",
   "keywords" : ["backbone", "model", "xml"],
   "homepage" : "https://github.com/salsita/backbone-xml",
   "version" : "0.1",

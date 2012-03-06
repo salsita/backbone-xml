@@ -104,7 +104,7 @@ describe('XML Model Testing Module', function() {
   });
 
 
-  it('should load any XML data when schema is not provided', function() {
+  it('should load arbitrary XML data when schema is not provided', function() {
 
     var url = 'http://' + host + ':' + port + '/data/schema-incompatible.xml';
 
@@ -124,7 +124,7 @@ describe('XML Model Testing Module', function() {
   });
 
 
-  it('should fail if the XML data doesn\'t match the provided schema',
+  it('should fail if the XML data does not match the provided schema',
   function() {
 
     var url = 'http://' + host + ':' + port + '/data/schema-incompatible.xml';
