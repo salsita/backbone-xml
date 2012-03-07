@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<TestItem>
+  <text>test my module</text>
+  <done>true</done>
+  <number_of_tags>3</number_of_tags>
+  <tags>backbone</tags>
+  <tags>xml</tags>
+  <tags>model</tags>
+</TestItem>
