@@ -3,7 +3,7 @@
   "description" : "XML-backed model support for Backbone.js.",
   "keywords" : ["backbone", "model", "xml"],
   "homepage" : "https://github.com/salsita/backbone-xml",
-  "version" : "0.1",
+  "version" : "0.1.0",
   "author" : "Roman Kaspar <roman@salsitasoft.com> (http://www.salsitasoft.com)",
   "contributors" : [
     "Matthew Gertner <matthew@salsitasoft.com> (http://www.salsitasoft.com)"
